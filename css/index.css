@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+@import url('http://fonts.cdnfonts.com/css/nimbus-sans-d-ot?styles=15727');
+
+
+
+.contentHolder{
+    /*background-color: rgb(15, 255, 243);*/
+    width: 100%;
+    height: auto;
+    display:flex;
+    justify-content: center;
+}
+
+.Content{
+    background-color: rgb(216, 216, 216);
+    width:71.4%;
+    height:auto;
+}
+
+.HeaderBar{
+    background-color: white;
+    height:100px;
+    border-color: rgb(112, 112, 112);
+    border: groove;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.HeaderText{
+    margin-left:10px;
+    font-family: "Nimbus Sans D OT";
+    font-size: 38px;
+    color: rgb(112, 112, 112);
+}
+
+.DashBoard{
+    width:100%;
+    height:1080px;
+    /*background-color: red;*/
+    display: flex;
+}
+
+.FunctionBar{
+    width:20%;
+    height:auto;
+    /*background-color: yellow;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.FunctionButton{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*background-color: chartreuse;*/
+    height:85px;
+    border-color: rgb(112, 112, 112);
+    border: groove;
+}
+
+.FunctionName{
+    margin-left: 10px;
+    font-family: "Nimbus Sans D OT";
+    font-size: 27px;
+    color: rgb(112, 112, 112);
+    text-decoration: none;
+}
+
+.ViewingDashboard{
+    /*background-color: aquamarine;*/
+    width:80%;
+    height: 1080px;
+}
+
+.DashboardHeader{
+    width: 100%;
+    height: 150px;
+    /*background-color:greenyellow ;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.DashboardHeaderText{
+    margin-left: 5%;
+    font-family: "Nimbus Sans D OT";
+    font-size: 60px;
+    color: rgb(112, 112, 112);
+}
+
+.AccountHolder{
+    width:90%;
+    height:auto;
+    /*background-color: blue;*/
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.AccountInfo{
+    width:45%;
+    height:200px;
+    /*background-color: cornflowerblue;*/
+    border-color: rgb(112, 112, 112);
+    border: groove;
+    margin-bottom: 35px;
+}
+
+.AccountTextHolder{
+    width:90%;
+    height:auto;
+    /*background-color: crimson;*/
+    margin-left: 5%;
+    font-family: "Nimbus Sans D OT";
+    font-size: 21px;
+    color: rgb(112, 112, 112);
+    margin-top:10px
+}
+
+
+.FormHolder{
+    width:90%;
+    height:300px;
+    /*background-color: blue;*/
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.FieldHeader{
+    font-family: "Nimbus Sans D OT";
+    font-size: 25px;
+    color: rgb(112, 112, 112);
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.InputFields{
+    height:35px;
+    width:700px;
+    margin-bottom: 10px;
+}
+
+.FormFieldHolder{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.LoginButton{
+    width:33%;
+    height:90px;
+    font-size: 30px;
+    font-family: "Nimbus Sans D OT";
+    color: rgb(112, 112, 112);
+    margin-top:20px;
+
+}
